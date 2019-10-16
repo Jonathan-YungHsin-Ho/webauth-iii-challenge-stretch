@@ -31,6 +31,7 @@ form {
 
 input {
   width: 140px;
+  padding: 0.5rem;
 }
 
 button,
