@@ -22,7 +22,7 @@ function App() {
       </Route>
       <Route path='/login' component={Login} />
       <Route path='/register' component={Register} />
-      <Route path='/users' component={Users} />
+      <PrivateRoute path='/users' component={Users} />
     </div>
   );
 }
