@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem 1rem 0;
+}
+
+input {
+  width: 140px;
+}
+
+button,
+a,
+label {
+  font-size: 1.5rem;
+}
+
+.logo {
+  width: 300px;
+  margin-top: 2rem;
+}
+
+.nav {
+  margin: 1rem;
+}
+
+.box {
+  border: 2px solid black;
+  width: 300px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.user {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 360px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+  margin: 2rem auto;
+}
+
+.btn {
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  align-self: center;
+  cursor: pointer;
+}
+
+.logout {
+  border: none;
+  background: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.error {
+  color: red;
+  align-self: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
